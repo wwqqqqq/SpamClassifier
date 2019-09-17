@@ -7,11 +7,11 @@
 
 ## Metrics
 * Use precision and recall
-* Precision: <img src="http://latex.codecogs.com/gif.latex?SP = \frac{n_{pam\rightarrow pam}}{n_{pam\rightarrow pam}+n_{normal\rightarrow pam}}" />
-* Recall: <img src="http://latex.codecogs.com/gif.latex?SR = \frac{n_{pam\rightarrow pam}}{N_{pam}}" />
-  * <img src="http://latex.codecogs.com/gif.latex?n_{pam\rightarrow pam}" />: the number of spam messages that are correctly classified.
-  * <img src="http://latex.codecogs.com/gif.latex?n_{normal\rightarrow pam}" />: the number of normal messages that are mistakenly classified as spam.
+* Precision: <img src="http://latex.codecogs.com/gif.latex?SP=\frac{n_{pam\,\rightarrow\,pam}}{n_{pam\,\rightarrow\,pam}+n_{normal\,\rightarrow\,pam}}" />
+* Recall: <img src="http://latex.codecogs.com/gif.latex?SR=\frac{n_{pam\,\rightarrow\,pam}}{N_{pam}}" />
+  * <img src="http://latex.codecogs.com/gif.latex?n_{pam\,\rightarrow\,pam}" />: the number of spam messages that are correctly classified.
+  * <img src="http://latex.codecogs.com/gif.latex?n_{normal\,\rightarrow\,pam}" />: the number of normal messages that are mistakenly classified as spam.
   * <img src="http://latex.codecogs.com/gif.latex?N_{pam}" />: the amount of spam messages in the dataset.
-* Metric: <img src="http://latex.codecogs.com/gif.latex?\text{F} = \frac{SP\times SR \times 2}{SP+SR}" />
+* Metric: <img src="http://latex.codecogs.com/gif.latex?\text{F}=\frac{SP\,\times\,SR\,\times\,2}{SP+SR}" />
 
   * Larger <img src="http://latex.codecogs.com/gif.latex?\text{F}" /> value indicates better model peformance.
